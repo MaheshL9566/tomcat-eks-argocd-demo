@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: <dockerhub-username>/tomcat-eks-demo:1.0
+        image: 887329217061.dkr.ecr.us-east-2.amazonaws.com/tomcat-demo
         ports:
         - containerPort: 8080
 
