@@ -4,10 +4,12 @@ metadata:
   name: tomcat-service
   namespace: tomcat
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: tomcat
   ports:
-  - port: 80
+  - name: http
+    port: 80
     targetPort: 8080
+    nodePort: 32080
 
