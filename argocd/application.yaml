@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/MaheshL9566/tomcat-eks-argocd-demo.git
+    repoURL: https://github.com/MaheshL9566/tomcat-eks-argocd-demo
     targetRevision: main
     path: k8s
 
