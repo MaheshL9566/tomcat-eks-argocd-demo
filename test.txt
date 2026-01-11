@@ -1,2 +1,2 @@
 This is a main branch file
-replica = 2
+replica = 3
